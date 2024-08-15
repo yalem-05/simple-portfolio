@@ -1,0 +1,215 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col">
+
+        <div class="containe" style="margin-left:0%;">
+            <p style="font-weight:bold; font-family:Georgia, 'Times New Roman' , Times, serif;font-size:30px;">WellCome to</p>
+
+
+            <p style="font-size:35px;">
+                <span style="font-family:Blackadder ITC;" class="r">C</span>
+                <span style="font-family:Blackadder ITC;" class="e">N</span>
+                <span style="font-family:Blackadder ITC;" class="l">E</span>
+                <span style="font-family:Blackadder ITC;" class="r">T&nbsp &nbsp;  </span>
+                <span style="font-family:Blackadder ITC;" class="e">S</span>
+                <span style="font-family:Blackadder ITC;" class="l">O</span>
+                <span style="font-family:Blackadder ITC;" class="r">F</span>
+                <span style="font-family:Blackadder ITC;" class="e">T</span>
+                <span style="font-family:Blackadder ITC;" class="l">W</span>
+                <span style="font-family:Blackadder ITC;" class="r">A</span>
+                <span style="font-family:Blackadder ITC;" class="e">R</span>
+                <span style="font-family:Blackadder ITC;" class="l">E</span>
+
+
+            </p>
+            <p style="font-size:40px;"> 100% reliable, efficient</p>
+
+        </div>
+    </div>
+    <div class="col">
+        <div class="container cont1">
+            <div class="row">
+                <div class="col">
+                    <ul class="list" style="list-style-type:none;">
+                        <b style="font-style:italic; text-decoration:underline;">Software, networking and other....development company for </b>
+                        <li>
+                            <b class="text-black w3-animate-zoom finance"><i class="bi bi-check-circle-fill icon-red"></i>Finance</b>
+                        </li> 
+                        <li>
+                            <b class="text-black w3-animate-right sales"><i class="bi bi-check-circle-fill icon-red"></i>Saless</b>
+                        </li>
+                        <li>
+                            <b class="text-white  commerse"><i class="bi bi-check-circle-fill commerse icon-red">E-commerse</i></b>
+                        </li>
+                        <li>
+                            <b class="text-black w3-animate-top purchase"><i class="bi bi-check-circle-fill icon-red"></i>purchase</b>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    @* <img src="../Image/logo.png" class="cont rounded-circle img-thumbnail border-6 border-info img-fluid cont" width="300" height="20" style="opacity:0.6; " alt=" Cnet logo" /> *@
+
+                    <div>
+                        <canvas id="myChart" style="width: 300px; height: 250px;"></canvas> <!-- Adjusted size -->
+                    </div>
+
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                    <script>
+                        const ctx = document.getElementById('myChart');
+
+                        const myChart = new Chart(ctx, {
+                            type: 'doughnut',
+                            data: {
+                                labels: ['Sale', 'Finance', 'Purchase', 'E-Commerce', 'Inventory Management', 'Human Resource'],
+                                datasets: [{
+                                    label: 'Company Scale',
+                                    data: [3, 5, 2, 4, 9, 8],
+                                    backgroundColor: [ // Added background colors for better visibility
+                                        'rgba(255, 99, 132, 0.2)',
+                                        'rgba(54, 162, 235, 0.2)',
+                                        'rgba(255, 206, 86, 0.2)',
+                                        'rgba(75, 192, 192, 0.2)',
+                                        'rgba(153, 102, 255, 0.2)',
+                                        'rgba(255, 159, 64, 0.2)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(255, 99, 132, 1)',
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)'
+                                    ],
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: true, // Ensure it responds to screen size
+                                maintainAspectRatio: false, // Prevent maintaining aspect ratio
+                            
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+
+    @* <img src="../Image/logo.png" class="cont rounded-circle img-thumbnail border-6 border-info img-fluid cont" width="300" height="20" style="opacity:0.6; " alt=" Cnet logo" /> *@
+
+
+
+        </div>
+    </div>
+
+
+
+</div>
+<hr class="border-7 border-light" style="width:100%;" />
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+            <p class="text-primary text-capitalize" style="font-weight:bold;font-size:20px; font-family:monospace">We are</p>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-6 ">
+            <p class="futur" style="color:rgb(146, 96, 191);font-weightbold; font-family:Blackadder ITC; font-size:40px;">Your guid for a better futuer!</p>
+            <a asp-controller="Portfolio" asp-action="Index">  <button class="btn btn-primary p-5 appoint" style="width:300px; height:20px; text-align:center;">
+                <i class="bi bi-check-fill"></i>Applay Appointment 
+                </button>
+                </a>
+        </div>
+        <div class="col-6 w3-animate-top">
+            <img src="../Image/net.png" class="img-fluid rounded-circle border-light imagean" style="width:350px; height:200px;" alt="The image not cfound" />
+        </div>
+
+    </div>
+</div>
+<p class="text-center text-secondary" style="margin:60px;padding:40px; font-size:50px;"> <b>WHY AS</b> </p>
+<div class="con bg-light" style=" margin-right:20px; margin-top:5px; display:flex; flex-wrap:wrap; flex-direction:row; margin-bottom:80px; vertical-align:central">
+
+
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-check-square-fill icon-green"></i><br />
+            <p><b>Affordable</b></p>
+            We ask you what you deserve to get based on your company scales.
+
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-car-front-fill icon-green"></i><br />
+            <p><b>Free Toure</b></p>
+            We will show you our company previous in person
+
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-universal-access icon-green"></i><br />
+            <p><b>Follow up</b></p>
+           Once a project are finishid we have a contineous folow up
+
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-book-half icon-green"></i><br />
+            <p><b>Full Training</b></p>
+            When we finish the implementation once we give a detail training how to use the system
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px;display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-emoji-smile icon-green"></i><br />
+            <p><b>Work with</b></p>
+           We are working with  a happy customer to grow together
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-check-square-fill icon-green"></i><br />
+            <p><b>Affordable</b></p>
+            We ask you what you deserve to get based on your company scale
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-car-front-fill icon-green"></i><br />
+            <p><b>Free Toure</b></p>
+            We will show you our company previous in person
+
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-check-square-fill icon-green"></i><br />
+            <p><b>Order as</b></p>
+            We are waiting you to work with your company
+            <button class="btn btn-outline-primary" style="border:none; font-weight:bold;">Appoint as here✔🏃‍♂</button>
+
+        </div>
+    </div>
+    <div class="card whycard" style="width:200px; margin-right:50px; margin-left:70px; margin-top:20px; display:flex; flex-wrap:wrap; flex-direction:row;">
+        <div class="card-body">
+            <i class="bi bi-heart-fill icon-green"></i><br />
+            <p><b>Affordable</b></p>
+            We ask you what you deserve to get based on your company scaless
+
+        </div>
+    </div>
+
+
+</div>
+
+
+

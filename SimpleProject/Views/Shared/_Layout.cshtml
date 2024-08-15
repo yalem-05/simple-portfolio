@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SimpleProject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SimpleProject.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="~/lib/4/w3.css" />
+    
+
+</head>
+<body class="bo" id="br">
+    <header style="position:fixed;top:0; left:0;right:0; z-index:100;">
+        <nav style="background-color:lightgray;" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light text-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Image/logo.png" class="rounded-circle img-fluid" width="60" height="50" alt=" Cnet logo" /> <span  class="table-success dropee" >CNET SOFTWARE</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul  class="navbar-nav flex-grow-5">
+                        <li class="nav-item">
+                            <a onclick="colors" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="colors" class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">Aboutas</a>
+                        </li>
+                         <li class="nav-item">
+                            <a onclick="colors" class="nav-link text-dark" asp-area="" asp-controller="Services" asp-action="Index">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="colors" class="nav-link text-dark" asp-area="" asp-controller="Portfolio" asp-action="Index">Portfolios</a>
+                        </li>
+                        <li class="nav-item">  
+                            <a onclick="colors" class="nav-link text-dark" asp-area="" asp-controller="Testimo" asp-action="Index">Testimonio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="colors" class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">Contactas</a>
+                        </li>
+
+                    
+                    </ul>
+                </div>
+      
+                
+                <button style="border:none;background-color:lightgray;" id="bright" class="nav-link text-dark" asp-area=""> <i id="bri" class="bi-brightness-alt-high"></i></button>
+            </div>
+        </nav>
+    </header>
+@*     <div class="sidcont" style="display:flex;flex-direction:row;">
+        <div class="sidebar alert alert-success alert-dismissible " style="display:flex; flex-direction:column; width:10%; height:100%; padding-top:200px; margin-top:0px;">
+         
+         
+        </div>
+
+        <div class="container" style="width:85%; flex;">
+            <main role="main" class="p-0">
+                @RenderBody()
+            </main>
+        </div>
+    </div> *@
+
+    <div style="margin-top:40px;" class="containerrrr">
+        <main role="main" class="p-5">
+            @RenderBody()
+        </main>
+
+
+        <footer class="footer bg-secondary" style="overflow:hidden; margin-bottom:0; position:relative;  bottom:0; right:0; left:0;">
+            <div class="row" style="height:100px;">
+                <div class="col">
+                    &copy; All right reserved <b> @DateTime.Now.Year </b>
+                </div> 
+                <div class="col">
+                    Cnet Software technology<i id="bri" class="bi bi-airplane-engines-fill icon-red"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+            integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!--<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - SimpleProject - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>-->
+    <script type="text/javascript">
+        var val=document.getElementById("br");
+        document.getElementById("bright").onclick=function (){
+            val.classList.toggle("bodyy");
+            document.getElementById("bri").classList.toggle("bi-lightbulb-fill");
+          
+        }
+      
+
+
+
+        function colors(){
+
+    }
+    </script>
+</body>
+</html>

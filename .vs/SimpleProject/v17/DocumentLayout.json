@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\views\\portfolio\\alldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\views\\portfolio\\alldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\wwwroot\\lib\\4\\w3.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\wwwroot\\lib\\4\\w3.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|c:\\users\\yzy\\source\\repos\\simpleproject\\simpleproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C6F4EDC-3E14-401D-BC41-FE24E43846D6}|SimpleProject\\SimpleProject.csproj|solutionrelative:simpleproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "w3.css",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\wwwroot\\lib\\4\\w3.css",
+              "RelativeDocumentMoniker": "SimpleProject\\wwwroot\\lib\\4\\w3.css",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\wwwroot\\lib\\4\\w3.css",
+              "RelativeToolTip": "SimpleProject\\wwwroot\\lib\\4\\w3.css",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-13T20:45:58.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllData.cshtml",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Portfolio\\AllData.cshtml",
+              "RelativeDocumentMoniker": "SimpleProject\\Views\\Portfolio\\AllData.cshtml",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Portfolio\\AllData.cshtml",
+              "RelativeToolTip": "SimpleProject\\Views\\Portfolio\\AllData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T19:45:43.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SimpleProject\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SimpleProject\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAOgAAAAAQDMzMzMLwBsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-13T16:43:19.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "SimpleProject\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "SimpleProject\\Views\\About\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T16:33:06.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SimpleProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SimpleProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKAAAAAAMzMzMzMpwNQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T09:22:53.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SimpleProject\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SimpleProject\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T07:49:45.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SimpleProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SimpleProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACkAAACAMTMzMzMbwDUAAACPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T06:43:15.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "SimpleProject\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Users\\YZY\\source\\repos\\SimpleProject\\SimpleProject\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "SimpleProject\\Views\\Services\\Index.cshtml",
+              "ViewState": "AQIAAB4AAABAZmZmZmYkwDQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T06:41:49.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

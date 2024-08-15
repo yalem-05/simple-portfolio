@@ -1,0 +1,337 @@
+html {
+  font-size: 14px;
+}
+
+@media (max-width: 570px) {
+  html {
+    font-size: 16px;
+  }
+   .dropee{
+      display:none;
+    }
+    .r, .e, .l {
+        font-weight: bold;
+        color: #00ffff;
+        font-family: Arial;
+        font-size: 10px;
+    }
+}
+.splash {
+    margin: 30px;
+    width: 40%;
+    animation-delay: 0.4s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    animation: animatezoom 0.7s;
+}
+
+@keyframes splash1{
+    from{width:5px;
+         height:5px;
+    }
+    to {
+        width: 40%;
+        height: 100px;
+    }
+}
+.con{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+
+.prof{
+    margin:30px;
+}
+
+.appoint{
+    height:30px;
+}
+
+.whycard {
+    width: 300px;
+    border-radius: 50px;
+    animation-delay: 0.4s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    animation: animatezoom 0.7s;
+}
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+@keyframes whyanim{
+    from{
+        
+        display:hidden;
+         
+    }
+    to{width:200px;
+       
+       display:block;
+      
+    }
+}
+
+.whycard:hover{
+    background-color:aquamarine;
+}
+
+.appoint:hover {
+    background-color: cornflowerblue;
+    border: none;
+    mask-border-outset: initial;
+    transition: height 2s ;
+    transition-delay:0.5s;
+    transition-duration:1s;
+}
+.as{
+    background-color:antiquewhite;
+    animation-name:car;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    
+}
+@keyframes car {
+    from {
+        background-color: lightgray;
+        transition: width 0 height 0;
+    }
+
+    to {
+        background-color: white;
+        transition: width 2s height 2s;
+        transition-duration:3s;
+        transition-delay:1s;
+    }
+}
+
+
+
+@media (min-width: 578px) {
+    .dropee {
+        margin-right:100px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.dropee {
+    margin-right:500px;
+
+  
+}
+
+
+.bo {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0%;
+    background-color: #f2f2f2;
+}
+.bodyy {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0%;
+    background-color: gray;
+    color:white;
+}
+
+
+.clogo {
+   background-image: url("~/Image/logo.png");
+    background-image: url("~/Image/logo.png");
+}
+
+
+
+.nav-link:visited {
+    background-color: cadetblue;
+    color: white;
+}
+.nav-link:focus {
+    background-color: #cccccc;
+    color: white;
+}
+
+
+.nav-item:hover, .nav-link:hover {
+    background-color: #cccccc;
+    color: white;
+    
+}
+.nav-link:active {
+    background-color:powderblue;
+    color: white;
+}
+
+
+.r, .e, .l {
+    font-weight: bold;
+    color: #00ffff;
+    font-family: Arial;
+    font-size: 25px;
+}
+.cont {
+   position:relative;
+    z-index: -1;
+    background-color:aquamarine;
+}
+.col{
+    margin-bottom:20px;
+}
+
+
+.icon-red{
+    color:red;
+    font-size:20px;
+}
+
+.icon-green {
+    align-items:center;
+    color: green;
+    font-size: 50px;
+}
+.purchase {
+   
+    font-family: sans-serif;
+    font-style: italic;
+    transform: rotateZ(50deg);
+}
+
+.sales {
+   
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.finance {
+ 
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.commerse {
+    font-family: sans-serif;
+    font-style: italic;
+    animation-name: animatedcom;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+.imagean {
+    margin-left:100px;
+    animation-name: animatedim;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    width:700px;
+    border:2px solid red;
+    border-radius:90px;
+}
+
+@keyframes animatedim{
+    from {
+        transform: rotateX(0deg);
+        opacity:1;
+    }
+    to {
+        transform: rotateZ(360deg);
+        border-bottom:5px solid dashed;
+        opacity:0.1;
+    }
+}
+@keyframes animatedcom {
+    25% {
+        transform: rotateX(0deg);
+        color:white;
+    }
+
+    25% {
+        transform: rotateZ(150deg);
+        color:blanchedalmond;
+    }
+    25% {
+        transform: rotateZ(200deg);
+        color: blanchedalmond;
+    }
+    25% {
+        transform: rotateZ(0deg);
+        color: black;
+    }
+
+}
+
+.r {
+    animation-name: animated1;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.e {
+    animation-name: animated2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.l {
+    animation-name: animated3;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animated1 {
+    from {
+        color: #f2f2f2;
+    }
+
+    to {
+        color: #00ffff;
+    }
+}
+@keyframes animated2 {
+    from {
+        color: #f2f2f2;
+    }
+    to {
+        color: #000000;
+    }
+}
+@keyframes animated3 {
+    from {
+        color: #f2f2f2;
+    }
+
+    to {
+        color: cadetblue;
+    }
+}
+
+
+@media (min-width: 768px) {
+ 
+
+    
+}
+
+
+

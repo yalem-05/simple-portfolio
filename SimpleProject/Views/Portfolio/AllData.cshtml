@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+   
+
+}
+
+@model List<Portfolio>
+
+<h1>all data from the database are listed below as follow</h1>
+
+<div class="container">
+
+    <table class="table table-striped table-bordered">
+        <tr>
+           
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Comment</th>
+        </tr>
+   
+        @foreach (var obj in Model)
+        {
+           
+            <tr id="tr">
+              
+                <td>@obj.Id</td>
+                <td>@obj.Name</td>
+                <td>@obj.Email</td>
+                <td>@obj.Comment</td>
+                <td><a style="border:none;" asp-controller="Portfolio" asp-action="Update" asp-route-Id="@obj.Id" class="btn btn-outline-primary">Edit</a></td>
+                <td><a style="border:none;" asp-controller="Portfolio" asp-action="Delet" asp-route-Id="@obj.Id" class="btn btn-outline-danger">Delet</a></td>
+            </tr>
+           
+        }
+    </table>
+
+
+
+</div>
+
+
+
+             

@@ -1,0 +1,47 @@
+﻿@model SimpleProject.Models.Portfolio
+
+
+<h4>Contact page</h4>
+<div class="container border-5 border-primary" style="width:30%;border:dotted 3px blue; background-color:azure;">
+
+    <form class="form" method="post">
+
+        <div class="row" style="margin-top:40px;">
+            <div class="col mb-60">
+                <label  asp-for="Name"></label>
+                <input type="text" class="form-control" asp-for="Name" />
+                <span asp-validation-for="Name" class=" text-danger"></span>
+            </div>
+        </div>
+        <div class="row" style="margin-top:40px;">
+            <div class="col mb-60">
+                <label  asp-for="Email"></label>
+                <input type="email" class="form-control" asp-for="Email" />
+                <span asp-validation-for="Email" class=" text-danger"></span>
+            </div>
+        </div>
+        <div class="row mt-30" style="margin-top:20px;">
+            <div class="col">
+                <label  asp-for="Comment"></label>
+                <input type="text" class="form-control" asp-for="Comment" />
+                <span class=" text-danger" asp-validation-for="Comment"></span>
+            </div>
+        </div>
+        <div class="row" style="margin-top:40px;">
+            <div class="col">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </div>
+
+    </form>
+    <a asp-controller="Portfolio" asp-action="AllData" class="btn btn-outline-primary">List all data</a>
+  
+
+
+</div>
+
+                @section Scripts{
+                    @{
+        <partial name="_ValidationScriptsPartial" />
+                    }
+                }
